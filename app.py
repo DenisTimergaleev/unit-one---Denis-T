@@ -4,6 +4,7 @@ t = Turtle()
 
 t.shape('turtle')
 
+t.speed(0)
 
 sidelength = 100
 rotate=90
@@ -26,9 +27,9 @@ doublesquares(1)
 def spiral(x):
     sidelength=5
     for i in range (x):
-        for i in range (4):
+        for i in range (5):
             t.forward(sidelength)
-            t.right(90)
+            t.right(144)
         sidelength+=5
         t.right(5)
 spiral(60)
